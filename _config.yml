@@ -82,12 +82,15 @@ content:
 
 
   - title: Research Interests
-    layout: text
-    content: |
-      - Performance testing
-      - Performance modeling
-      - Root cause detection
-      - Search-based method
+    layout: list
+    content:
+      - layout: left
+        title: Research Areas
+        description: |
+          - Performance testing
+          - Performance modeling
+          - Root cause detection
+          - Search-based method
 
   - title: Academic Service
     layout: list
