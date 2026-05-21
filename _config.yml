@@ -58,8 +58,6 @@ content:
         sub_title: Master
         caption: "2019 - 2021"
         link: https://www.concordia.ca/
-        quote: >
-          Researching software engineering in the SENSE Lab.
         description: |
           - Investigating load testing in software field.
           - Learning software engineering skill.
@@ -69,8 +67,6 @@ content:
         sub_title: PhD student
         caption: "2021-2023"
         link: https://www.concordia.ca/
-        quote: >
-          Researching software engineering in the SENSE Lab.
         description: |
           - Researching performance testing in software field.
           - Intern in industry
@@ -80,8 +76,6 @@ content:
         sub_title: PhD candidate
         caption: "2023-present"
         link: https://uwaterloo.ca//
-        quote: >
-          Researching software engineering in the SENSE Lab.
         description: |
           - Researching performance testing in software field.
           - Intern in industry
@@ -95,6 +89,23 @@ content:
       - Performance modeling
       - Root cause detection
       - Search-based method
+
+  - title: Academic Service
+    layout: list
+    content:
+      - layout: left
+        title: Reviewer
+        sub_title: "19th CCF International Conference on Service Science (ICSS)"
+        caption: "Professional Service"
+        description: |
+          Contributed peer review service for the 19th CCF International Conference on Service Science (ICSS).
+
+      - layout: left
+        title: Reviewer
+        sub_title: "ACM Transactions on Software Engineering and Methodology (TOSEM)"
+        caption: "Professional Service"
+        description: |
+          Contributed peer review service for *ACM Transactions on Software Engineering and Methodology (TOSEM)*.
 
 # Footer
 footer_show_references: false
