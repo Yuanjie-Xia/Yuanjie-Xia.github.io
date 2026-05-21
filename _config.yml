@@ -1,12 +1,16 @@
 # Site
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
+version: 2
 
 # Personal info
 name: Yuanjie (Roger) Xia
-title: PhD Candidate | SENSE Lab, University of Waterloo
-email: yuanjie.xia@uwaterloo.ca
+title: PhD Candidate | SENSE Lab, Concordia University
+email: YJXia97@gmail.com
 website: https://github.com/Yuanjie-Xia
+
+# Dark Mode (true/false/never)
+darkmode: false
 
 # Social links
 github_username: Yuanjie-Xia
@@ -16,36 +20,112 @@ linkedin_username: roger-xia-5aa419197
 about_title: About
 about_profile_image: images/profile.jpg
 about_content: |
-  I am a PhD candidate at University of Waterloo working in the SENSE Lab. My research focuses on performance testing in configurable systems, with broader interests in performance testing, search-based methods, and root cause detection.
+  I am a PhD candidate at Concordia University working in the SENSE Lab. My research focuses on [your main research area], with broader interests in [method / topic 1], [method / topic 2], and [application area].
+
+  My current work explores [one-sentence description of your dissertation or research direction]. I am especially interested in problems that connect rigorous research with practical impact.
 
   On this site, I highlight selected research, projects, and experience rather than a long chronological education story.
 
-# Projects Section
-projects_title: Selected Research & Projects
+content:
+  - title: Selected Research & Projects
+    layout: list
+    content:
+      - layout: top-middle
+        title: "[Project or Paper Title]"
+        link: "[Project URL]"
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: "[optional GitHub repo URL]"
+        quote: >
+          [One-sentence research or project summary]
+        description: |
+          - Problem: [What question or challenge does this work address?]
+          - Approach: [What method, system, or idea did you propose?]
+          - Outcome: [Result, paper, prototype, dataset, or impact]
 
-# Experience Section
-experience_title: Research & Professional Experience
+      - layout: top-middle
+        title: "[Project or Paper Title]"
+        link: "[Project URL]"
+        quote: >
+          [One-sentence summary]
+        description: |
+          Use this section for selected work only. For an academic homepage, 2-4 high-quality entries are usually stronger than a long list.
 
-# Education Section
-education_title: Education
+  - title: Research & Professional Experience
+    layout: list
+    content:
+      - layout: left
+        title: Concordia University
+        sub_title: PhD Candidate / Research Assistant
+        caption: "[Start Year] - Present"
+        link: https://www.concordia.ca/
+        quote: >
+          Researching [topic] in the SENSE Lab.
+        description: |
+          - Investigating [research problem].
+          - Using [methods / tools / datasets].
+          - Contributing to [papers, systems, experiments, or collaborations].
 
-# More Section
-more_title: Research Interests
-more_content: |
-  - [Research interest 1]
-  - [Research interest 2]
-  - [Method or toolset]
-  - [Application domain]
+      - layout: left
+        title: "[Institution or Company]"
+        sub_title: "[Teaching Assistant / Research Intern / Engineer]"
+        caption: "[Dates]"
+        link: "[optional URL]"
+        quote: >
+          [One-line summary of the role]
+        description: |
+          - [Responsibility or contribution]
+          - [Responsibility or contribution]
+          - [Outcome, impact, or skill]
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Concordia University
+        sub_title: "PhD in [Program / Department]"
+        caption: "[Start Year] - Present"
+        quote: >
+          Dissertation / research focus: [short phrase]
+        description: |
+          Advisor: [Advisor Name]
+
+          Research focus: [2-3 line summary of your dissertation topic, methods, or contribution].
+
+      - layout: left
+        title: "[Previous University]"
+        sub_title: "MSc in [Field]"
+        caption: "[Start Year] - [End Year]"
+        quote: >
+          Thesis: [short title or topic]
+        description: |
+          Focus: [brief sentence].
+
+      - layout: left
+        title: South China University of Technology
+        sub_title: BSc in Information and Computing Science
+        caption: 2015 - 2019
+        quote: >
+          Foundation in computing, mathematics, and data-driven problem solving.
+        description: |
+          Keep undergraduate entries brief unless directly relevant to your current research profile.
+
+  - title: Research Interests
+    layout: text
+    content: |
+      - [Research interest 1]
+      - [Research interest 2]
+      - [Method or toolset]
+      - [Application domain]
 
 # Footer
 footer_show_references: false
 
 # Build settings
-remote_theme: sproogen/resume-theme
-
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
