@@ -5,7 +5,7 @@ version: 2
 
 # Personal info
 name: Yuanjie (Roger) Xia
-title: PhD Candidate | SENSE Lab, Concordia University
+title: PhD Candidate | SENSE Lab, University of Waterloo
 email: YJXia97@gmail.com
 website: https://github.com/Yuanjie-Xia
 
@@ -20,104 +20,81 @@ linkedin_username: roger-xia-5aa419197
 about_title: About
 about_profile_image: images/profile.jpg
 about_content: |
-  I am a PhD candidate at Concordia University working in the SENSE Lab. My research focuses on [your main research area], with broader interests in [method / topic 1], [method / topic 2], and [application area].
+  I am a PhD candidate at University of Waterloo working in the SENSE Lab. My research focuses on software engineering, with broader interests in performance testing, search-based method, and root cause detection.
 
-  My current work explores [one-sentence description of your dissertation or research direction]. I am especially interested in problems that connect rigorous research with practical impact.
+  My current work explores performance modeling in configurable systems. I am especially interested in methods for modeling system performance behavior and locating performance regressions.
 
-  On this site, I highlight selected research, projects, and experience rather than a long chronological education story.
+  I am open to discussion and collaboration.
 
 content:
-  - title: Selected Research & Projects
+  - title: Selected Publications
     layout: list
     content:
       - layout: top-middle
-        title: "[Project or Paper Title]"
-        link: "[Project URL]"
-        additional_links:
-          - title: GitHub
-            icon: fab fa-github
-            url: "[optional GitHub repo URL]"
+        title: "Reducing the Length of Field-replay Based Load Testing"
+        sub_title: "IEEE Transactions on Software Engineering, 2024"
+        link: "https://ece.uwaterloo.ca/~wshang/pubs/YUANJIE_TSE_2024.pdf"
+        link_text: PDF
         quote: >
-          [One-sentence research or project summary]
+          Yuanjie Xia, Lizhi Liao, Jinfu Chen, Heng Li, and Weiyi Shang.
         description: |
-          - Problem: [What question or challenge does this work address?]
-          - Approach: [What method, system, or idea did you propose?]
-          - Outcome: [Result, paper, prototype, dataset, or impact]
+          "Reducing the Length of Field-replay Based Load Testing." *IEEE Transactions on Software Engineering*, 50(8): 1967-1983, 2024.
 
       - layout: top-middle
-        title: "[Project or Paper Title]"
-        link: "[Project URL]"
+        title: "CoMSA: A Modeling-Driven Sampling Approach for Configuration Performance Testing"
+        sub_title: "ASE 2023"
+        link: "https://ece.uwaterloo.ca/~wshang/pubs/ASE_2023_YUANJIE.pdf"
+        link_text: PDF
         quote: >
-          [One-sentence summary]
+          Yuanjie Xia, Zishuo Ding, and Weiyi Shang.
         description: |
-          Use this section for selected work only. For an academic homepage, 2-4 high-quality entries are usually stronger than a long list.
+          "CoMSA: A Modeling-Driven Sampling Approach for Configuration Performance Testing." *The 38th IEEE/ACM International Conference on Automated Software Engineering (ASE 2023).*
 
-  - title: Research & Professional Experience
+  - title: Research & Education Experience
     layout: list
     content:
       - layout: left
         title: Concordia University
-        sub_title: PhD Candidate / Research Assistant
-        caption: "[Start Year] - Present"
+        sub_title: Master
+        caption: "2019 - 2021"
         link: https://www.concordia.ca/
         quote: >
-          Researching [topic] in the SENSE Lab.
+          Researching software engineering in the SENSE Lab.
         description: |
-          - Investigating [research problem].
-          - Using [methods / tools / datasets].
-          - Contributing to [papers, systems, experiments, or collaborations].
+          - Investigating load testing in software field.
+          - Learning software engineering skill.
 
-      - layout: left
-        title: "[Institution or Company]"
-        sub_title: "[Teaching Assistant / Research Intern / Engineer]"
-        caption: "[Dates]"
-        link: "[optional URL]"
-        quote: >
-          [One-line summary of the role]
-        description: |
-          - [Responsibility or contribution]
-          - [Responsibility or contribution]
-          - [Outcome, impact, or skill]
-
-  - title: Education
-    layout: list
-    content:
       - layout: left
         title: Concordia University
-        sub_title: "PhD in [Program / Department]"
-        caption: "[Start Year] - Present"
+        sub_title: PhD student
+        caption: "2021-2023"
+        link: https://www.concordia.ca/
         quote: >
-          Dissertation / research focus: [short phrase]
+          Researching software engineering in the SENSE Lab.
         description: |
-          Advisor: [Advisor Name]
-
-          Research focus: [2-3 line summary of your dissertation topic, methods, or contribution].
-
-      - layout: left
-        title: "[Previous University]"
-        sub_title: "MSc in [Field]"
-        caption: "[Start Year] - [End Year]"
-        quote: >
-          Thesis: [short title or topic]
-        description: |
-          Focus: [brief sentence].
+          - Researching performance testing in software field.
+          - Intern in industry
 
       - layout: left
-        title: South China University of Technology
-        sub_title: BSc in Information and Computing Science
-        caption: 2015 - 2019
+        title: University of Waterloo
+        sub_title: PhD candidate
+        caption: "2023-present"
+        link: https://uwaterloo.ca//
         quote: >
-          Foundation in computing, mathematics, and data-driven problem solving.
+          Researching software engineering in the SENSE Lab.
         description: |
-          Keep undergraduate entries brief unless directly relevant to your current research profile.
+          - Researching performance testing in software field.
+          - Intern in industry
+
+
 
   - title: Research Interests
     layout: text
     content: |
-      - [Research interest 1]
-      - [Research interest 2]
-      - [Method or toolset]
-      - [Application domain]
+      - Performance testing
+      - Performance modeling
+      - Root cause detection
+      - Search-based method
 
 # Footer
 footer_show_references: false
