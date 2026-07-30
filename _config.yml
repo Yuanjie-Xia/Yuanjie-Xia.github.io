@@ -30,6 +30,14 @@ content:
     layout: list
     content:
       - layout: top-middle
+        title: "HQP: Hybrid Queueing and Configuration-Aware Performance Modeling for Microservice Systems"
+        sub_title: "ACM Transactions on Software Engineering and Methodology (TOSEM), accepted"
+        quote: >
+          Yuanjie Xia, Kundi Yao, Lizhi Liao, Daniele Di Pompeo, Catia Trubiani, Boris Zibitsker, and Weiyi Shang.
+        description: |
+          "HQP: Hybrid Queueing and Configuration-Aware Performance Modeling for Microservice Systems." *ACM Transactions on Software Engineering and Methodology (TOSEM)*, accepted.
+
+      - layout: top-middle
         title: "Reducing the Length of Field-replay Based Load Testing"
         sub_title: "IEEE Transactions on Software Engineering, 2024"
         link: "https://ece.uwaterloo.ca/~wshang/pubs/YUANJIE_TSE_2024.pdf"
